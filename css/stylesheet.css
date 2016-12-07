@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+    background-image: url(../img/gym2.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+div#main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+div#nav {
+    height: 100px;
+    background-color: white;
+    text-align: center;
+}
+
+img#logo {
+    max-height: 100px;
+    margin-top: 2px;
+}
+
+#menu {
+    height: 60px;
+    background-color: #000083;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+ul {
+    padding: 0;
+    width: 100%;
+    margin: 0;
+}
+
+li {
+    width: 16.6%;
+    display: inline;
+    float: left;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    background-color: #000083;
+}
+
+a:hover {
+    color: #EE0009;
+}
+
+a {
+    font-size: 17px;
+    margin-top: 5px;
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+}
+
+div.block {
+    margin-top: 25px;
+    width: 100%;
+    background-color: white;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+div.title {
+    margin-top: -25px;
+    height: 50px;
+    background-color: #000083;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+h2.bio {
+    font-family: 'Oswald', sans-serif;  
+    padding: 10px;
+}
+
+h2.title {
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif; 
+    color: white;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+.left {
+    width: 40%;
+    float: left;
+}
+
+.right {
+    width: 60%;
+    float: left;
+}
+
+.leftright {
+    width: 100%;
+    display: block;
+    padding-bottom: -60px;
+    height: auto;
+}
+
+.leftB {
+    width: 60%;
+    float: left;
+}
+
+.rightB {
+    width: 40%;
+    float: left;
+}
+
+.center {
+    width: 100%;
+}
+
+.bio {
+    width: 100%;
+    padding: 10px;
+}
+
+.blockTitle {
+    font-family: 'Oswald', sans-serif; 
+    padding-left: 20px;
+    margin-bottom: -5px;
+}
+
+hr.line {
+    width: 80%;
+    margin-left: -10px;
+}
+
+.purpose {
+    margin-top: 0px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 18px;
+    padding: 0 20px;  
+}
+
+.quote {
+    font-size: 17px;
+    padding: 0 25px;
+}
+
+iframe {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+img.profile {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    padding-top: 0;
+    width: 100%;
+}
+
+#jamesWrap {
+    background-color: #000083;
+    margin: 10px 0 -10px 20px;
+    padding: 0;
+    border-radius: 5px;
+}
+
+.background {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.snippet {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+    margin-top: -10px;
+}
+
+.fullVid {
+    padding-top: 5px;
+    padding-right: 5px;
+    width: 99%;
+    height: 100%;
+}
+
