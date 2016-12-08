@@ -7,8 +7,6 @@
 <link type="text/css" rel=stylesheet href="css/stylesheet.css">
 <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet"> 
-    
-
 </head>
     
 <body>
@@ -16,17 +14,17 @@
   <div id='main'>
     
     <div id='nav'>
+        <a href='https://www.facebook.com/247FitnessSportsTrainingLlc/?fref=ts'><img id='fb' src='img/fb.jpg'></a>
         <img id='logo' src='img/logo.png'>
     </div> 
         
 <div id='menu'>  
     <ul>
-        <li><a href="#staff">Staff</a></li>
-        <li><a href="#facilities">Facilities</a></li>
-        <li><a href="#memberships">Memberships</a></li>
-        <li><a href="#personal">Personal Training</a></li>
-        <li><a href="#sports">Sports Training</a></li>
-        <li><a href="jesus">Who is Jesus?</a></li>
+        <li><a class='link' href="#staff">Staff</a></li>
+        <li><a class='link' href="#facilities">Facilities</a></li>
+        <li><a class='link' href="#memberships">Memberships</a></li>
+        <li><a class='link' href="#personal">Personal / Sports Training</a></li>
+        <li><a class='link' href="jesus">Who is Jesus?</a></li>
     </ul>
 </div>  
         
@@ -82,7 +80,7 @@
             <h2 class='blockTitle'>Sam Benfield</h2>
              <hr class='line'>
         <div id='jamesWrap'>
-            <img class='profile' src="img/SamProfile.png">
+            <img class='profile' src="img/samProfile.jpg">
             <p class='snippet'>
             5 Years At 247 Fitness<br>
         </div>
@@ -104,23 +102,88 @@
         
     <div class='leftright'>
         <div class='left'>
-            <h2 class='blockTitle'>Machines</h2>
+            <h2 class='blockTitle'>Cardio Machines</h2>
              <hr class='line'>
         <p class='purpose'>- List Machines<br>
                            - All Of Them<br>
                            - At Least All We Can</p>
             
-            <h2 class='blockTitle'>Free Weights</h2>
+            <h2 class='blockTitle'>Weight Machines</h2>
              <hr class='line'>
         <p class='purpose'>- List Weights<br>
                            - All Of Them<br>
                            - At Least All We Can</p>
-        </div>
+            
+            <h2 class='blockTitle'>Free Weights</h2>
+                 <hr class='line'>
+            <p class='purpose'>- List Weights<br>
+                               - All Of Them<br>
+                               - At Least All We Can</p>
+
+            <h2 class='blockTitle'>Miscellaneous</h2>
+                 <hr class='line'>
+            <p class='purpose'>- List Weights<br>
+                               - All Of Them<br>
+                               - At Least All We Can</p>
+       
+        </div><!-- left -->
         
         <div class='right'>
+            <div id='videoWrap'>
             <video loop muted autoplay class="fullVid">
                 <source src="img/vidBG.mp4" type="video/webm">
             </video>
+            <p class='snippet' style='text-align: center;'>
+            XXXX Square Feet<br>
+            Over XX number of machines<br>
+            24/7 Survalence &amp; Security<br>
+            Male &amp; Female Lockerrooms<br>
+            Offers Protien Shakes / Drinks<br>
+            $XX,XXX+ amount of equiptment</p>
+            </div>
+        </div>
+          
+    </div>   
+    
+    </div><!-- block -->
+      
+    <div class='block' id='memberships'>
+        <div class='title'>
+            <h2 class='title'>Memberships</h2>
+        </div>
+        
+    <div class='leftright'>
+        <p class='purpose' style='text-align: center'>Prices Graphic Will Go Here</p>
+        <div class='left'>
+        
+        </div><!-- left -->
+        
+        <div class='right'>
+    
+        </div>
+          
+    </div>   
+    
+    </div><!-- block -->
+      
+    <div class='block' id='personal'>
+        <div class='title'>
+            <h2 class='title'>Personal / Sports Training</h2>
+        </div>
+        
+    <div class='leftright'>
+        <div class='leftB'>
+            <h2 class='blockTitle'>Training for Anyone &amp; Everyone</h2>
+             <hr class='line'>
+            <p class='purpose'>247 Fitness offers personal training and specialized sports training to help you get a college scholarship. James is a master-level trainer with over <strong>40 years</strong> of experience training everyone from seniors, youth, to athletes of all shapes and sizes. James has <strong>guarenteed</strong> results from his personal training that will show in your body and more importantly your performance. Over the course of his career he has trained over <strong>XX</strong> athletes from all kinds of sports and XX of those kids have went on to play at the next level.</p> 
+            <h2 class='blockTitle'>Lucas Clarke</h2>
+             <hr class='line'>
+           <p class='purpose'>"James helped me add not only strength, but also flexibility. He increased my stride by nearly 1/2 a foot and added explosion to my delivery which took my fastball in high school <strong>from low 80's to upwards of 87mph</strong>, and ultimately led me to playing at the Division I level for UNC-Asheville with a 90mph fastball. James trains smart, safe and specific to your sport and position to help you play at the next level. Not to mention he knows how to push you to your full potential."<br><br>
+            - Lucas Clarke</p> 
+        </div><!-- left -->
+        
+        <div class='rightB'>
+            <img id='clarke' src='img/clarke.jpg'>
         </div>
           
     </div>   
@@ -128,15 +191,6 @@
     </div><!-- block -->
       
   </div>
-<script type='text/javascript'>
-    $(window).bind('scroll', function () {
-    if ($(window).scrollTop() > 50) {
-        $('#menu').addClass('fixed');
-    } else {
-        $('#menu').removeClass('fixed');
-    }
-});
     
-</script>
 </body>
 </html>
