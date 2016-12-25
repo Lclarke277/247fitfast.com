@@ -18,7 +18,7 @@ $(document).ready(function(){
     if (this.hash !== "") {
       // Prevent default anchor click behavior
       event.preventDefault();
-
+        
       // Store hash
       var hash = this.hash;
 
@@ -41,6 +41,7 @@ $(document).ready(function(){
   <div id='main'>
     
     <div id='nav'>
+        
         <a href='https://www.facebook.com/247FitnessSportsTrainingLlc/?fref=ts'><img id='fb' src='img/fb.jpg'></a>
         <img id='logo' src='img/logo.png'>
     </div> 
@@ -180,13 +181,16 @@ $(document).ready(function(){
         </div>
         
     <div class='leftright'>
-        <p class='purpose' style='text-align: center'>Prices Graphic Will Go Here</p>
+        <div id='booking'>
+            <iframe id='bookingiFrame' src="http://247fitness.setmore.com" scrolling="no" width="100%" height="100%" frameborder="0"></iframe>
+        </div>
+        
         <div class='left'>
         
         </div><!-- left -->
         
         <div class='right'>
-    
+            
         </div>
           
     </div>   
